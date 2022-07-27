@@ -1,0 +1,120 @@
+*{
+    
+    box-sizing: border-box;
+    
+}
+
+/* Nav bar */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 8rem;
+    font-family: "Orbitron";
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item{
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+.list-item:hover{
+    text-decoration: solid underline #000000 2px;
+    font-weight: bold;
+
+}
+.button-group{
+   
+    display: flex;
+    align-items: center;
+}
+.nav-button{
+    padding: 0.5rem 3rem;
+    background-color: #fff;
+    border-radius: 0.6rem;
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+ /* Hero Banner Section  */
+
+ .hero-container{
+    display: flex;
+    margin: 5rem 3rem 2rem 3rem;
+    
+ }
+ .hero-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    margin: 4rem 2rem 2rem 4rem;
+ }
+ .hero-description{
+    font-family: "Poppins", Helvetica, sans-serif;
+    width: 60%;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    margin-bottom: 3rem;
+ }
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-heading{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.square{
+    width: 350px;
+    position: absolute;
+     z-index: -1; 
+     bottom: -1rem;
+    /* margin-left: 5rem;
+    margin-right: 3rem; */
+ }
+ .star{
+    position: absolute;
+    top: 170px;
+    right: 10%;
+   
+ }
+ .globe{
+    position: absolute;
+    top: 150px;
+    left: 55%
+ }
+
+  .hero img{
+    width: 350px;
+ }
+
+ button{
+    padding: 0.5rem 3rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+.contact-heading{
+    font-weight: 400;
+    font-size: larger;
+    color:rgb(59, 59, 59);
+    margin-bottom: 1rem;
+}
+
+
+
+
